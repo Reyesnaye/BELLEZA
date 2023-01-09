@@ -1,0 +1,58 @@
+
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family:Century School;}
+
+
+body{ background: url(https://media.istockphoto.com/id/1181376834/es/foto/en-l%C3%ADnea-maquillaje-tienda-de-belleza-cosm%C3%A9tica-productos-de-la-mujer-accesorios-que-vierten.jpg?s=170667a&w=0&k=20&c=L6gUO95s-4Ws4bX8heQ88LhVxd9xne2D9G-ek5aooaQ=);
+    background-size: 100vw 100vh;}
+
+nav{margin:auto;
+    max-width: 2000px;
+	background-color:darkslategrey;  
+    font-size: 22px;}
+
+nav a{
+	display: inline-block;
+	text-decoration:none;
+    font-family:forte;
+	color:blanchedalmond; 
+	margin: 0px; 
+	padding: 5px 5px;}
+
+nav a:hover {
+	background-color:antiquewhite;
+	color:black;}
+
+.menu-horizontal{
+	list-style: none;
+	display:flex;
+    justify-content:space-around;}
+
+.menu-horizontal > li > a{
+	display:flex; 
+	padding: 10px 75px;
+	text-decoration: none;}
+
+.menu-vertical{
+	position:absolute;
+	display:none;
+	list-style:none;
+	width: 262px;
+    background-color: rgba(10, 10, 10, .5);}
+
+.menu-horizontal li:hover .menu-vertical{
+	display:block;}
+
+.menu-vertical li a{
+	display: block;
+    margin-top: auto;
+    text-decoration: none;
+    padding: (15px, 15px, 17px, 15);}
+
+.encabezado h1{ text-align:left; 
+  padding-top: 200px;
+  font-family:Brush Script MT;
+  color:dimgray;
+  font-size: 90px;} 

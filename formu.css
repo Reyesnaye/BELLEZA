@@ -1,0 +1,40 @@
+ body {background-color:darksalmon;
+            font-family:forte;
+            font-size: 17px;
+            color:antiquewhite}
+
+form {background-color:black;
+            border-radius: 15px;
+            max-width: 450px;
+            margin: 70px auto;
+            padding:5px 20px;}
+ 
+.form-control {text-align: left;
+            margin-bottom: 10px;
+            border-radius: 20px;}
+ 
+.form-control label {display: block; margin-bottom: 4px;}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+            border: 1px solid #777;
+            border-radius: 10px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 90%;}
+
+.form-control input[type="radio"],
+input[type="checkbox"] {
+            display: inline-block;
+            width: auto;}
+ 
+
+button{
+  height: 45px; 
+  padding-left: 6px;     
+  text-transform: uppercase;
+    background-color:deeppink;  
+  width: 420px;   
+font-family: elephant;}

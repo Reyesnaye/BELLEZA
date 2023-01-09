@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>PAGINA WEB </title>
+	<link rel="stylesheet" href="formu.css">
+</head>
+<body>
+   
+
+  
+    
+        <form action="submeter-formulario.php" method="post">  
+    <div class="contact_form">
+ <h1><center>Formulario <center> </h1>
+<!-- Create Form -->
+    <form id="form">
+ 
+
+<div class="form-control"><label for="name" id="label-name"> Nombre: </label>
+ 
+
+<input type="text"id="name" placeholder="Escribe tu nombre" /></div>
+  
+<div class="form-control">
+<label for="Apllido" id="label-apellido">Apellido:</label>
+ 
+
+<input type="apellido"id="apellido"placeholder="Escribe tu apellido" /></div>
+ 
+        
+
+<div class="form-control">
+<label> Sexo: </label>
+<!-- Input Type Radio Button -->
+<label for="1"><input type="radio" name="estacion value"=hombre/> Masculino </input></label>
+<label for="2"><input type="radio" name="estacion value"=Femenino/> Femenino</input></label>
+
+             
+<div class="form-control">
+<label> ¿Te gusto mi web? </label>
+            
+<!-- Input Type Radio Button -->
+<label for="1">  <input type="radio" name="estacion value"=Si/> Si </input></label>
+<label for="2">  <input type="radio" name="estacion value"=No/> No </input></label>
+
+
+   <p>
+            <label for="¿Qué le añadirías o quitarías a la página web?">¿Que recomiendas que mejoremos?
+            </label>                     
+            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+             </p>  
+                 
+    <p>                    
+    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+    
+  </p>
+
+</body>
+</html>

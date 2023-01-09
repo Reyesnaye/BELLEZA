@@ -1,0 +1,38 @@
+ body {background-color:dimgrey;}
+
+form {background-color:antiquewhite;
+            border-radius: 15px;
+            max-width: 450px;
+            margin: 50px;
+            padding:4px 2px;
+            font-family:forte;
+            font-size: 20px;
+            position:relative;    
+            top: 30px; 
+            left: 350px;}
+
+input{
+  background-color: #fbfbfb; 
+  width: 320px; 
+  height: 35px;  
+  border-color:azure;
+  margin-top: 5px; 
+font-family: elephant;}
+
+textarea {
+  background-color: #fbfbfb; 
+  width: 320px; 
+  height: 35px;  
+  border-color:azure;
+  margin-top: 5px; 
+font-family: elephant;}
+
+   
+button{ font-family: forte;
+    font-size: 20px;
+  height: 60px; 
+  padding-left: 6px;  
+  margin-top: 
+  background-color:darksalmon;
+  border-radius: 10px;  
+  width: 410px;}
